@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-model = pickle.load(open('Anemia_model.sav', 'rb'))
+model = pickle.load(open('anemia_model.sav', 'rb'))
 
 st.title('Prediksi Anemia')
 
